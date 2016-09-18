@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="./js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+ <p>hello vue and jfinal ,my name is gary</p>
+ <p>{{ message}}</p>
+ <p><input v-model="message"></p>
+</div>
+<script type="text/javascript">
+	new Vue({
+		el:'#app',
+		data:{
+			message:'hello vue.js',
+		},
+	});
+</script>
+</body>
+</html>
